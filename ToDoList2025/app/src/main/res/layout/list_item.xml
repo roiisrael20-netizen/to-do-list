@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:id="@+id/tvContent"
+        android:background="#A8DCAA"
+        android:layout_weight="75"
+        android:textSize = "20sp"
+
+        />
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:id="@+id/tvDeadline"
+        android:background="#DDD486"
+        android:layout_weight="35"
+        android:textSize = "20sp"
+
+        />
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:id="@+id/tvPriority"
+        android:background="#9DC3E1"
+        android:layout_weight="10"
+        android:textSize = "20sp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        />
+
+</LinearLayout>
